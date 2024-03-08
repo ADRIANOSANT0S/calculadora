@@ -50,6 +50,9 @@
             <div class="fw-bold col text-start">
                 <span>O resultado: {{ calcular }}</span>
             </div>
+            <div class="mt-5 text-center">
+                <a class="link" href="https://github.com/ADRIANOSANT0S/calculadora">Github</a>
+            </div>
         </div>
     </div>
 </div>
@@ -57,4 +60,12 @@
 </template>
 
 <style scoped>
+    .link {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .link:hover {
+        opacity: .7;
+    }
 </style>
